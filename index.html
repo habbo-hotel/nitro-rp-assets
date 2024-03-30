@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>swf daddy</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background: black;
+                color: white;
+                font-size: 2rem;
+                margin: 0 auto;
+            }
+            iframe {
+                border-radius: 10px;
+                width: 90%;
+                height: 90%;
+                margin: 0;
+            }
+
+            @keyframes rainbow-text {
+                0% {color: red;}
+                15% {color: orange;}
+                30% {color: yellow;}
+                45% {color: green;}
+                60% {color: blue;}
+                75% {color: indigo;}
+                90% {color: violet;}
+                100% {color: red;}
+            }
+
+            .rainbow-text {
+                animation: rainbow-text 2s linear infinite;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="rainbow-text">swf daddy is watching</h1>
+        <iframe src="https://www.youtube.com/embed/lzmWzXLPa6I?autoplay=1&start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </body>
+</html>
